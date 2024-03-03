@@ -1,17 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-  </head>
-  <body>
-    <p><a href="index.html">Home</a> | <a href="about.html">About Us</a> | <a href="arabic.html">Arabic</a></p>
-    <hr>
-    <h1>Hello World! </h1>
-    <p>This is my very first website!</p>
-    <p>So let us try this. One fine day in hell, the master told a story. Someone lied so well, he sent him  back
-    to glory.</p>
-    <p>There are whispers between the screams, that this deed can be done. Even sinners can dream...</p>
-  </body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 5px;
+        }
+
+        main {
+            padding: 20px 45px 20px 100px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+        }
+
+    .search-results {
+        list-style: none;
+        padding: 0;
+    }
+
+    .search-result {
+        margin: 20px 0;
+    }
+
+    .search-result a {
+        text-decoration: none;
+        /* color: #3498db; */ /* Blue color for the links */
+        /* font-weight: bold; */
+        font-size: 20px; /* Larger font size for the links */
+        display: block;
+        margin-bottom: 5px; /* Adjust spacing between link and description */
+    }
+
+    .search-result p {
+        margin: 0;
+        font-size: 12px; /* Font size for the description */
+    }
+
+    </style>
+    <title>Ralph Haddad</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ralph Haddad</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.htm">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+ 
+        <ul class="search-results">
+            <li class="search-result">
+                <a href="arabic.html">Arabic</a>
+                <p>An arabic webpage that I wrote, the website is still in the building page.</p>
+            </li>
+            <li class="search-result">
+                <a href="about.html">about.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <li class="search-result">
+                <a href="contact.html">contact.html</a>
+                <p>Description or snippet of content...</p>
+            </li>
+            <!-- Add more list items for additional HTML files as needed -->
+        </ul>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
 </html>
